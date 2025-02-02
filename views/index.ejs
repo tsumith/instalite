@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>Welcome to insta-lite</h1>
+    <h1>Welcome to InstaLite</h1>
     <% for(post of posts){ %>
         <div class="posts">
             <h3>
@@ -17,12 +17,13 @@
                     <br>
                     <%= post.content %>
             </h3>
-            <a href="http://localhost:8080/posts/<%=post.id%>"><button>view post</button></a>
+            <a href="http://localhost:8080/posts/<%=post.id%>"><button>view</button></a>
             <br><br>
+            <a href="http://localhost:8080/posts/<%=post.id%>/edit"><button>edit</button></a>
         </div>
         <% } %>
             <br>
-            <a href="http://localhost:8080/posts/new"><button>create new post</button></a>
+            <a href="http://localhost:8080/posts/new"><button>create new</button></a>
 </body>
 
 </html>
