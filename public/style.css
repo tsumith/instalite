@@ -1,0 +1,12 @@
+h1 {
+    color: rgb(31, 100, 102);
+}
+
+
+.posts {
+    background-color: rgb(119, 88, 118);
+    color: rgb(201, 234, 255);
+    margin: 7px;
+    padding: 10px;
+    border-radius: 17px;
+}
